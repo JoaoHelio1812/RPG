@@ -86,7 +86,6 @@ public class FilaMatchmaking {
         }
     }
 
-
     public void iniciarPartida() {
         if (tamanho >= 2) {
             Personagem p1 = removerPrimeiro();
