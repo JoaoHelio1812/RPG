@@ -69,7 +69,7 @@ public class FilaMatchmaking {
 
 
     public void listar() {
-        System.out.println("\n--- Fila de Matchmaking (FIFO) ---");
+        System.out.println("Fila de Matchmaking");
         if (inicio == null) {
             System.out.println("Nenhum jogador na fila de espera.");
             return;
@@ -88,10 +88,10 @@ public class FilaMatchmaking {
             Personagem p1 = removerPrimeiro();
             Personagem p2 = removerPrimeiro();
             System.out.println("MATCHMAKING] Partida encontrada");
-            System.out.println(" -> Jogador 1: " + p1.nome + " Nível " + p1.nivel );
-            System.out.println(" -> Jogador 2: " + p2.nome + " Nível " + p2.nivel );
+            System.out.println("Jogador 1: " + p1.nome + " Nível " + p1.nivel );
+            System.out.println("Jogador 2: " + p2.nome + " Nível " + p2.nivel );
         } else {
-            System.out.println("MATCHMAKING] Jogadores insuficientes na fila  \n Total atual: " + tamanho);
+            System.out.println("MATCHMAKING Jogadores insuficientes na fila  \n Total atual: " + tamanho);
         }
     }
 

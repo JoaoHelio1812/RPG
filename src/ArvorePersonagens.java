@@ -102,11 +102,11 @@ public class ArvorePersonagens {
         preOrdem(raiz);
         System.out.println();
 
-        System.out.print("In-ordem : ");
+        System.out.print("In ordem : ");
         inOrdem(raiz);
         System.out.println();
 
-        System.out.print("Pós-ordem: ");
+        System.out.print("Pos ordem: ");
         posOrdem(raiz);
         System.out.println();
     }
