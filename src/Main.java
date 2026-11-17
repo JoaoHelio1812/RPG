@@ -25,9 +25,9 @@ public class Main {
 
 
         FilaMatchmaking fila = new FilaMatchmaking();
-        fila.adicionar(arvore.buscar(50)); // Arthas
-        fila.adicionar(arvore.buscar(70)); // Thrall
-        fila.adicionar(arvore.buscar(40)); // Illidan
+        fila.adicionar(arvore.buscar(50));
+        fila.adicionar(arvore.buscar(70));
+        fila.adicionar(arvore.buscar(40));
 
         System.out.println("Listando fila:");
         fila.listar();
@@ -44,7 +44,7 @@ public class Main {
 
 
 
-        Personagem heroi = arvore.buscar(50); // Arthas
+        Personagem heroi = arvore.buscar(50);
         System.out.println("testando inventário do herói: " + heroi.nome);
 
         heroi.inventario.adicionar(new Item("Poção de Vida", "Consumível"));
