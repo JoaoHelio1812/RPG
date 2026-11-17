@@ -9,7 +9,6 @@ public class FilaMatchmaking {
         this.tamanho = 0;
     }
 
-
     public void adicionar(Personagem p) {
         NoFila novoNo = new NoFila(p);
         if (fim == null) {
@@ -41,7 +40,6 @@ public class FilaMatchmaking {
             return;
         }
 
-
         if (inicio.personagem.id == id) {
             inicio = inicio.proximo;
             if (inicio == null) {
@@ -51,7 +49,6 @@ public class FilaMatchmaking {
             System.out.println("Jogador com ID " + id + " foi removido da fila.");
             return;
         }
-
 
         NoFila atual = inicio;
         while (atual.proximo != null && atual.proximo.personagem.id != id) {

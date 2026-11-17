@@ -96,7 +96,6 @@ public class ArvorePersonagens {
         return menor;
     }
 
-
     public void percursos() {
         System.out.println("PERCURSOS DA ABB");
         System.out.print("Pré-ordem: ");

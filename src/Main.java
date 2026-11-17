@@ -1,7 +1,6 @@
 public class Main {
     public static void main(String[] args) {
 
-
         ArvorePersonagens arvore = new ArvorePersonagens();
         arvore.inserir(new Personagem(50, "Jonata", 60, "Paladino"));
         arvore.inserir(new Personagem(30, "Rafael", 55, "Guerreiro"));
@@ -21,9 +20,6 @@ public class Main {
         arvore.excluir(30);
         arvore.percursos();
 
-
-
-
         FilaMatchmaking fila = new FilaMatchmaking();
         fila.adicionar(arvore.buscar(50));
         fila.adicionar(arvore.buscar(70));
@@ -41,8 +37,6 @@ public class Main {
 
         System.out.println("Iniciando partida:");
         fila.iniciarPartida();
-
-
 
         Personagem heroi = arvore.buscar(50);
         System.out.println("testando inventário do herói: " + heroi.nome);

@@ -9,7 +9,6 @@ public class PilhaInventario
         this.tamanho = 0;
     }
 
-
     public void adicionar(Item item)
     {
         NoPilha novoNo = new NoPilha(item);
@@ -35,7 +34,6 @@ public class PilhaInventario
         return null;
     }
 
-
     public Item remover() {
         if (topo == null) {
             System.out.println("Inventário vazio Nenhum item para remover");
@@ -47,7 +45,6 @@ public class PilhaInventario
         System.out.println("Item utilizado/removido do topo: " + itemRemovido);
         return itemRemovido;
     }
-
 
     public void listar() {
         System.out.println("Inventário do Personagem");
